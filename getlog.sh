@@ -1,6 +1,7 @@
 #!/bin/sh
 # get log
-
+# パラメータ1：時刻、パラメータ2：番号
+# 実行例：./getlog.sh '2023/06/08 16:08' '123'
 function logget()
 {
     logfile=$1
