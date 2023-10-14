@@ -24,7 +24,7 @@ then
     cat header.txt > $file_name
     echo '' >> $file_name
 else
-    echo 'file no data'
+    echo 'header.txt no data'
     exit 1
 fi
 if [ -s test.data ]
