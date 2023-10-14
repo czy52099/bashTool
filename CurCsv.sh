@@ -2,7 +2,7 @@
 # curCsv.sh
 # パラメータ1：ファイル名、 パラメータ2：作成したいデータ数
 # inputファイルには改行しない
-# 実行例：./curCsv.sh 200
+# 実行例：./curCsv.sh ファイル名 200
 export file_name=$1
 export datas=$2
 function curreCsv(){
